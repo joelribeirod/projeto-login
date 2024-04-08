@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+#imagem{
+    background-image: url(../imagens/bolinhas.jpg);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-position:center center ;
+    background-size: cover;
+}
+
+#formulario{
+    background-color: white;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    vertical-align: top;
+}
+
