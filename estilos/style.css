@@ -19,17 +19,75 @@ body{
 #imagem{
     background-image: url(../imagens/bolinhas.jpg);
     height: 200px;
-    width: 200px;
-    display: inline-block;
+    width: 300px;
     background-position:center center ;
     background-size: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #formulario{
     background-color: white;
-    display: inline-block;
-    height: 200px;
+    height: 330px;
     width: 300px;
     vertical-align: top;
+    border-radius: 20px;
 }
 
+#login{
+    background-color: white;
+    max-width: 300px;
+    border-radius: 20px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    margin-top: 10px;
+}
+
+.informacao{
+    background-color: #5f2c82;
+    width: 290px;
+    height: 40px;
+    margin: 3px 5px;
+    border-radius: 5px;
+    
+}
+
+
+
+#entrar{
+    max-width: 290px;
+    width: 100vw;
+    margin: 2px 5px;
+    background-color: #49a08a;
+    border: 1px solid white;
+    height:40px ;
+    border-radius: 5px;
+}
+
+#esqueci{
+    max-width: 290px;
+    width: 100vw;
+    margin: 2px 5px;
+    background-color: white;
+    border: 1px solid #49a08a;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#isenha{
+    margin-bottom: 3px;
+}
+
+div > h1{
+    text-align: center;
+    margin: 10px;
+}
+
+div > p{
+    font-size: 1.1em;
+}
