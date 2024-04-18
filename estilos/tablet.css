@@ -22,7 +22,8 @@
     }
 
     #entrar{
-        width: 440px;
+        width: 100%;
+        margin-left: 5px;
     }
 
     #login{

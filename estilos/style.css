@@ -53,14 +53,33 @@ form{
 
 .informacao{
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 96%;
     height: 40px;
     margin:5px 5px;
     border-radius: 5px;
 }
 
-div.campo > label {
-    display: none;
+.informacao > label > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.informacao > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 55px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    
+    transform: translateY(-12px); /*tambem da para usar o vertical-allign:top;*/
+}
+
+.informacao > input:focus-within{
+    background-color: white;
 }
 
 #entrar {
