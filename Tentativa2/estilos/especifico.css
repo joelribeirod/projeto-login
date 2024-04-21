@@ -1,9 +1,82 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) {
+    main{
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+
+    #login{
+        width: 700px;
+        height: 280px;
+    }
+    
+    #imagem{
+        float: left;
+        width: 25vw;
+        height: 280px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #formulario{
+        display: inline-block;
+    }
+
+    #formulario >p{
+        width: 440px;
+        font-size: .8em;
+        padding: 0 10px 0 10px;
+    }
+
+    .informacao{
+        width: 430px;
+    }
+
+    .informacao > input{
+        width: 380px;
+    }
+
+    #botoes > input,a{
+        width: 430px;
+    }
     
 }
 
 @media screen and (min-width:992px) {
-    
+    #login{
+        height: 350px;
+        width: 950px;
+        max-width: 950px;
+    }
+    #imagem{
+        width: 460px;
+        height: 350px;
+        border-radius: 0px 20px 20px 0;
+        float:right;
+    }
+
+    #formulario > h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    #formulario > p{
+        width:490px;
+        font-size: 0.9em;
+        text-align: justify;
+        text-indent: 3px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .informacao{
+        width: 450px;
+    }
+
+    .informacao > input{
+        width: 400px;
+    }
+
+    #botoes > input,a{
+        width: 450px;
+    }
 }

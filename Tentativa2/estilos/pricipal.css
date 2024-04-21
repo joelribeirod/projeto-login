@@ -1,1 +1,111 @@
 @charset "UTF-8";
+
+/*
+    Paleta de cores
+    verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-color:#5f2c82 ;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login{
+    width: 300px;
+    height: 540px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.418);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+#imagem{
+    background-image: url(../imagens/bolinhas.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px 20px 0 0;
+}
+
+#formulario > h1{
+    text-align: center;
+    margin:10px;
+}
+
+#formulario >p{
+    font-size: 1.1em;
+}
+
+.informacao{
+    background-color: #5f2c82;
+    margin: 0px 5px 5px 5px;
+    width: 290px;
+    height: 43px;
+    border-radius: 5px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+.informacao > label > span{
+    color: white;
+    padding-top: 5px ;
+    font-size: 32px;
+    padding: 7px 5px 5px 7px;
+}
+.informacao >input{
+    background-color: #8feed6c9;
+    vertical-align: top;
+    margin-top: 2px;
+    height: 39px;
+    width: 240px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#botoes > input, a{
+    display: block;
+    width: 290px;
+    height: 40px;
+    padding: 2px;
+    margin: 3px 5px 3px 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#botoes >a{
+    text-decoration: none;
+    color: black;
+    
+    border: 1px solid #49a09d;
+    color: #165e4c;
+
+}
+
+#botoes > input{
+    background-color: #49a07f;
+    color: white;
+}
